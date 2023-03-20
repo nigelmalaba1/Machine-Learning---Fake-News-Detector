@@ -70,3 +70,10 @@ Replace aws_account_id with your actual AWS account ID:
   `docker push aws_account_id.dkr.ecr.us-west-2.amazonaws.com/my-fastapi-app:latest`
   
   You can now deploy the Docker image from Amazon ECR to your desired AWS service, such as Amazon ECS or AWS Fargate.
+
+
+  # Architecture Diagram
+  
+  ![databricks](https://user-images.githubusercontent.com/123284219/226489807-57021815-a84a-4834-9e0a-b53b08476e2d.png)
+  
+  
