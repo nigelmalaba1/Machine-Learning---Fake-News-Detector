@@ -10,6 +10,7 @@ This repository contains a Fake News Detection API using Databricks AutoML, Fast
 * Requests
 * Docker
 * AWS CLI
+* Azure Databricks
 
 # Getting Started
 
