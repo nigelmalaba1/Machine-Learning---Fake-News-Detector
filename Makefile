@@ -9,6 +9,6 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C databricks_automl.py main.py appml.py
+	pylint --disable=R,C webapp.py 
 
 all: install lint test
