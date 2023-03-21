@@ -13,6 +13,10 @@ auto_ml = DatabricksAutoML(serving_endpoint_url, api_token)
 class InputData(BaseModel):
     text: str
 
+@app.get("/")
+async def root():
+    return {"message": "Hello Model"}
+
 @app.post("/predict")
 async def predict(input_data: InputData):
     data = {
