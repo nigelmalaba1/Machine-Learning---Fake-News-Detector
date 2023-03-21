@@ -9,6 +9,6 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C predict-fake-news.py main.py local-cli-predict
+	pylint --disable=R,C databricks_automl.py main.py appml.py
 
 all: install lint test
